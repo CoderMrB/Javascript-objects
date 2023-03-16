@@ -46,3 +46,8 @@ console.log(bensPhrases[`smallTalk`]);
 console.log(desiredPleasantry);
 
 desiredPleasantry = `Sup!`;
+
+let array = ["Gratin", "Fish fingers", "Cheese roll", "Banana"]
+console.log(array)
+
+console.log(array[1])
