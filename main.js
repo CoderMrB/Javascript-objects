@@ -29,6 +29,20 @@ person.likesChocolate = false;
 if (person.likesChocolate === true){
     console.log(`${person.name} loves chocolate`)
 }
-    else{console.log(`${person.name} hates chocolate`)
-
+    else{
+        console.log(`${person.name} hates chocolate`)
     };
+
+let bensPhrases = {
+  greeting: "Well hello there!",
+  farewell: "See you in another life, brother",
+  smallTalk: "Warm today, isn't it...",
+};
+
+let desiredPleasantry = bensPhrases[`greeting`];
+
+console.log(bensPhrases[`smallTalk`]);
+
+console.log(desiredPleasantry);
+
+desiredPleasantry = `Sup!`;
